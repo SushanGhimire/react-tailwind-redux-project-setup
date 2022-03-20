@@ -1,4 +1,4 @@
-# Getting Started with Common React Project Setup
+# Getting Started with Common React Tailwindcss Redux Project Setup
 
 ## Available Scripts
 
