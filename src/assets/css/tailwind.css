@@ -3,6 +3,36 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base {
+    [type="text"],
+    [type="email"],
+    [type="url"],
+    [type="password"],
+    [type="number"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="search"],
+    [type="tel"],
+    [type="time"],
+    [type="week"],
+    [type="date"],
+    [multiple],
+    textarea,
+    select {
+      @apply px-5 py-2.5 2xl:py-3.5 w-full rounded-lg 2xl:rounded-xl  border-transparent placeholder-gray-500 focus:outline-none focus:border-border-dark focus:bg-transparent focus:ring-0 border border-border-light mt-2 text-sm 2xl:text-base ;
+    }
+    [type="checkbox"] {
+      @apply rounded w-4 h-4 border-gray-400 text-text-paragraph;
+    }
+    [type="radio"] {
+      @apply border-gray-300 text-blue-500 focus:ring-button;
+    }
+    label {
+      @apply font-semibold leading-6 text-sm text-text font-inter ml-2;
+    }
+  }
 .animation {
     @apply transition-all duration-300 ease-in-out;
 }

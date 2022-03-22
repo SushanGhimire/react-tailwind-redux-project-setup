@@ -16,7 +16,7 @@ const CustomSelectField = ({
     <div className={` font-inter`}>
       <Listbox value={value} onChange={handleChange}>
         <div className="relative">
-          <Listbox.Button className="relative px-5  py-2.5 2xl:py-3.5 w-full rounded-lg 2xl:rounded-xl  border-transparent placeholder-gray-500 focus:outline-none focus:border-darkBorder focus:bg-transparent focus:ring-0 border border-lightBorder mt-2 text-left bg-white flex space-x-1 items-center">
+          <Listbox.Button className="relative px-5  py-2.5 2xl:py-3.5 w-full rounded-lg 2xl:rounded-xl  border-transparent placeholder-gray-500 focus:outline-none focus:border-border-dark focus:bg-transparent focus:ring-0 border border-border-light mt-2 text-left bg-white flex space-x-1 items-center">
             {name === "SOL" && <img src={sol} className="w-6" alt="" />}
             {name === "USDC" && <img src={usdc} className="w-6" alt="" />}
             {name === "USDT" && <img src={usdt} className="w-6" alt="" />}
